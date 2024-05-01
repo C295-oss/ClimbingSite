@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root
+{
+    overflow-x: hidden;
+}
+
+#Contact h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply text-CreamWhite font-bold text-xl;
+}
+
+#Contact p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply text-CreamWhite font-semibold text-base;
+}
+
+#Contact a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply text-CreamWhite font-bold;
+}
+
+#Contact a:hover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply text-CreamWhiteDimmed font-semibold;
+}

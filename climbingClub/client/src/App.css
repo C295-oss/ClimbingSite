@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* div {
+  height: 100vh;
+
+  /* width: 100vw;
+  height: 100vh;
+  aspect-ratio: 16 / 9;
+  
+} */
+
+
+#mainPage {
+  /* height: 100vh; */
+  width: 100vw;
+  height: 100vh;
+  aspect-ratio: 16 / 9;
+
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  /* text-align: center; Center the text horizontally */
+  font-family: Arial, sans-serif; /* Specify the font family */
+  margin: 0;          /* Remove default margins */
+  padding: 0;         /* Remove default padding */
+  display: flex;      /* Use flexbox to center vertically */
+  align-items: center; /* Align text vertically in the center */
+  justify-content: center;
+
+}
+
+h1, h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  @apply uppercase tracking-widest font-semibold;
+}
+
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  @apply: text-md;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
